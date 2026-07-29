@@ -1,0 +1,7 @@
+1. Testing — pytest, integration tests, API tests
+2. Observability — Logging, Monitoring, Tracing
+3. System Design — Practical, not theoretical
+
+Product 01: Full production agentic AI system
+Product 02: Full production agentic AI system
+Product 03: Full production agentic AI system

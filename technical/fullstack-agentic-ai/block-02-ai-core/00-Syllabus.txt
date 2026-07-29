@@ -1,0 +1,24 @@
+1. What is Generative AI and how it works
+2. Understanding Large Language Models
+3. Accessing AI models via APIs
+4. Introduction to LangChain
+5. LangChain Components overview
+6. Working with LangChain Models
+7. Prompt Engineering & Prompt Templates
+8. Structured Output & Output Parsers
+9. Chains in LangChain
+10. Runnables — Part 1 & Part 2
+11. Running LLMs locally with Ollama
+12. Document Loaders
+13. Text Splitters
+14. Vector Stores & Embeddings
+15. Retrievers
+16. Retrieval Augmented Generation (RAG)
+17. Building a complete RAG pipeline over documents
+18. Tools in LangChain
+19. Tool Calling
+20. Building an end-to-end AI Agent
+21. Building a multi-tool AI Agent with real-world APIs
+22. Building a YouTube RAG Chatbot
+
+PROJECT 

@@ -1,0 +1,8 @@
+1. Git & Version Control
+2. Docker & Containerization
+3. PostgreSQL — Relational DB Design
+4. Redis — Caching
+5. Message Queues — Background Jobs
+6. Cloud — AWS or GCP (will pick one)
+
+Project: Dockerize and deploy an AI API end to end

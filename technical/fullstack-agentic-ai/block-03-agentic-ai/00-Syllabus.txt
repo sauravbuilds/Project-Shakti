@@ -1,0 +1,32 @@
+1. Scalable RAG with Async Queues & Distributed Workers
+2. Multi-Agent pipeline design — Search, Reader, Writer, Critic agents
+3. Generative AI vs Agentic AI
+4. What is Agentic AI
+5. LangChain vs LangGraph — when to use what
+6. LangGraph Core Concepts
+7. Sequential Workflows in LangGraph
+8. Parallel Workflows in LangGraph
+9. Conditional Workflows in LangGraph
+10. Iterative Workflows in LangGraph
+11. Building a Chatbot in LangGraph
+12. Persistence & Time Travel in LangGraph
+13. Chatbot with Streamlit UI
+14. Streaming in LangGraph
+15. LangGraph + Database Integration
+16. Tools in LangGraph
+17. Human in the Loop (HITL)
+18. Subgraphs in LangGraph
+19. How LLMs handle memory
+20. Short Term Memory implementation
+21. Long Term Memory implementation
+22. RAG inside LangGraph
+23. Corrective RAG (CRAG)
+24. Self-RAG — AI that fact-checks itself
+25. Blog Writing Agent — automated research & writing pipeline
+26. Observability with LangSmith
+27. LangSmith integration with LangGraph
+28. Knowledge Graphs & GraphRAG
+29. Voice Agents & Conversational AI
+30. Building MCP Client using LangGraph
+
+PROJECT 

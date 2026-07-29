@@ -1,0 +1,5 @@
+-Python - till advanced
+-Pydantic - whatever needed
+-Fast API - Enough to move forward
+
+PROJECTS-5
