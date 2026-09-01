@@ -54,6 +54,11 @@ project-shakti/
             └── ...
 ```
 
+
+---
+>>*"शनैः पन्थाः शनैः कन्था शनैः पर्वतमस्तके ।
+    शनैः विद्या शनैः वित्तं पञ्चैतानि शनैः शनैः ॥"*
+---
 ---
 
 >> *"A moving man surely meets his luck, the road favours the traveller."*
