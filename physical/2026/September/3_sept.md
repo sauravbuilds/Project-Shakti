@@ -26,7 +26,7 @@ Started with squats and attempted my highest squat weight of 2026 so far.
 * Wrist Curl - 3 sets
 
 **Total:** 19 working sets
-
+Ser right four sides of P bars four sets of whims of biceptor one set of respective fly and twenty minutes of sighting light in the way like you four third September which was in a style
 ### Macros & Micros
 
 **Food:**
