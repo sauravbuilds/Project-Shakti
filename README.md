@@ -11,6 +11,8 @@ This is a living document of everything I am building, learning, and becoming.
 
 Project Shakti is my personal operating system. Five pillars, everything tracked and pushed to GitHub. I am starting from scratch. Nothing I knew/did before counts. Every entry here is earned from today forward.
 
+Every pillar starts from a baseline. What I could do, what I knew, where I stood, before any of this began. Everything after that baseline is measured against it, not counted for its own sake.
+
 This repository is a record of five pillars: physical, intellectual, professional, product, and the report. The goal is simple: max all five stats simultaneously, and document every step of the process so anyone can follow, fork, or learn from the same path.
 
 ---
@@ -44,13 +46,11 @@ project-shakti/
 │   │   ├── block-01-python-pydantic/
 │   │   ├── block-02-genai-rag/
 │   │   ├── block-03-agents-langgraph-mcp/
-│   │   ├── block-04-05-shipping/
-│   │   ├── block-06-testing-observability-evals/
-│   │   └── automation/
+│   │   ├── block-04-fastapi/
+│   │   ├── block-05-docker-db-cloud/
+│   │   └── block-06-testing-observability-evals/
 │   └── product-management/
-│       ├── mfd-exam/
-│       ├── frameworks/
-│       └── decisions/
+│       └── ... (folders added per block, as earned)
 │
 ├── product/
 │   └── saptarishi-archives/
@@ -115,7 +115,7 @@ This is not a reading list. It is a record of what I have actually read.
 
 **Path:** `professional/`
 
-This is career leverage, everything that makes me materially better at the work I actually do and ship for a living. Two equal legs: **AI Engineering** and **Product Management**. Neither is subordinate to the other. The bet is that a PM with real depth in AI, able to build actual agentic products and not just prompt one, gets exponential leverage most PMs and most engineers can't touch alone.
+This is career leverage, everything that makes me materially better at the work I actually do and ship for a living. Two equal legs: **AI Engineering** and **Product Management**. Neither is subordinate to the other. This pillar is built on a PM having real depth in AI: able to build actual agentic products, not just prompt one.
 
 **`ai-engineering/`**: a structured, block-by-block roadmap to being able to build and ship agentic AI systems on my own. Scoped deliberately: enough software engineering to build and deploy real products end-to-end, not a software-engineering degree. Every block builds on the previous one. Every block ends with a hands-on build.
 
@@ -124,20 +124,13 @@ This is career leverage, everything that makes me materially better at the work 
 | Block 01 | Python + Pydantic |
 | Block 02 | Prompt Engineering + RAG + GenAI |
 | Block 03 | Agents + LangGraph + MCP |
-| Block 04-05 | Shipping: FastAPI, Docker, Databases, Cloud (minimum viable deploy, not SRE) |
+| Block 04 | FastAPI |
+| Block 05 | Docker + Databases + Cloud |
 | Block 06 | Testing + Observability + Evals + 3 Products |
-
-Also lives here: `ai-engineering/automation/`, automating real workflows, primarily with Claude. It's an application of AI engineering, not a separate domain.
 
 NOTE: If you're following this, don't copy the notes. Write your own, paste them into any LLM, and ask it to write notes in a similar style. It will be more useful for you.
 
-**`product-management/`**: the craft I already practice daily as a PM in fintech, tracked with the same rigor as everything else in this repo.
-
-- `mfd-exam/` → prep and progress toward the exam
-- `frameworks/` → PM frameworks studied and actually applied
-- `decisions/` → real calls made at work: what was decided, why, and what happened (anonymized where needed)
-
-Same rule as everywhere else in this repo: **actions don't count, progress does.** A finished course means nothing on its own — what matters is the before/after. Could bench 70kg, now 72kg. Knew Python basics, now shipped something with it. Every entry here follows that same shape: baseline → what changed → evidence of progress.
+**`product-management/`**: the craft I already practice daily as a PM, tracked with the same rigor as everything else in this repo. There is no fixed set of folders here. As a new block of PM work comes up, whether it's an exam, a framework, a real decision made at work, or something else, a new folder is created for it.
 
 ---
 
