@@ -50,7 +50,10 @@ project-shakti/
 │   │   ├── block-05-docker-db-cloud/
 │   │   └── block-06-testing-observability-evals/
 │   └── product-management/
-│       └── ... (folders added per block, as earned)
+│       ├── mfd-exam/
+│       ├── concepts/
+│       ├── iim-case-studies/
+│       └── product-teardowns/
 │
 ├── product/
 │   └── saptarishi-archives/
@@ -130,7 +133,12 @@ This is career leverage, everything that makes me materially better at the work 
 
 NOTE: If you're following this, don't copy the notes. Write your own, paste them into any LLM, and ask it to write notes in a similar style. It will be more useful for you.
 
-**`product-management/`**: the craft I already practice daily as a PM, tracked with the same rigor as everything else in this repo. There is no fixed set of folders here. As a new block of PM work comes up, whether it's an exam, a framework, a real decision made at work, or something else, a new folder is created for it.
+**`product-management/`**: the craft I already practice daily as a PM, tracked with the same rigor as everything else in this repo.
+
+- `mfd-exam/` → prep and progress toward the exam
+- `concepts/` → PM concepts studied (books, podcasts, videos), written up product-specific rather than general, so it's easy to find and easy to revise
+- `iim-case-studies/` → reports on official IIM case studies, what I actually took from each
+- `product-teardowns/` → teardowns of real products, what's broken or weak, and what I'd actually change
 
 ---
 
