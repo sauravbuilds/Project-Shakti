@@ -30,3 +30,6 @@
 - Question banks alone are not enough for this type of exam.
 - For future exams, I should prioritize complete syllabus coverage and conceptual understanding before practicing large numbers of questions.
 - I need to learn more about mutual funds in depth.
+
+### Certificate 
+- Today - 3 oct 2026, I received my NISM MFD V-A qualifying certificate

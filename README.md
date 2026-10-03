@@ -23,6 +23,7 @@ This repository is a record of five pillars: physical, intellectual, professiona
 project-shakti/
 │
 ├── README.md
+├── CHANGELOG.md
 │
 ├── physical/
 │   └── 2026/
@@ -65,6 +66,8 @@ project-shakti/
         └── weekly/
             └── ...
 ```
+
+Note: Instagram is not a folder in this repo. It's a separate, parallel layer, public narration of the four pillars, documented in its own context file outside this structure. See [The Report](#05-the-report) below for how it relates to the Report.
 
 ---
 
@@ -170,6 +173,8 @@ The layer that sits on top of the other four pillars. Raw logs mean nothing unti
 
 - **Monthly Report** *(mandatory)* → one file per month, every month, even if a pillar had zero activity that month. A blank month is logged, not skipped.
 - **Weekly Report** *(when possible)* → a shorter checkpoint, every Sunday, to catch drift before a month has already passed.
+
+Alongside the Report, an Instagram account (@sauravbuilds)serves as the public, real-time narration of these four pillars. It's a different layer, not a sixth pillar, not a folder in this repo, and not part of the Report itself: the Report is backward-facing and analytical, turning raw logs into decisions on a fixed cadence; Instagram is forward-facing and event-driven, documenting the pillars for an outside audience whenever something real happens. It has its own context file, maintained separately from this structure.
 
 ---
 
