@@ -51,10 +51,12 @@ project-shakti/
 │   │   ├── block-05-docker-db-cloud/
 │   │   └── block-06-testing-observability-evals/
 │   └── product-management/
-│       ├── mfd-exam/
-│       ├── concepts/
-│       ├── iim-case-studies/
-│       └── product-teardowns/
+│       ├── 01-mfd-exam/
+│       ├── 02-concepts/
+│       ├── 03-iim-case-studies/
+│       ├── 04-product-teardowns/
+│       ├── 05-investing/
+│       └── 06-nri-wealth-management/
 │
 ├── product/
 │   └── saptarishi-archives/
@@ -138,10 +140,12 @@ NOTE: If you're following this, don't copy the notes. Write your own, paste them
 
 **`product-management/`**: the craft I already practice daily as a PM, tracked with the same rigor as everything else in this repo.
 
-- `mfd-exam/` → prep and progress toward the exam
-- `concepts/` → PM concepts studied (books, podcasts, videos), written up product-specific rather than general, so it's easy to find and easy to revise
-- `iim-case-studies/` → reports on official IIM case studies, what I actually took from each
-- `product-teardowns/` → teardowns of real products, what's broken or weak, and what I'd actually change
+- `01-mfd-exam/` → prep and progress toward the exam
+- `02-concepts/` → PM concepts studied (books, podcasts, videos), written up product-specific rather than general, so it's easy to find and easy to revise
+- `03-iim-case-studies/` → reports on official IIM case studies, what I actually took from each
+- `04-product-teardowns/` → teardowns of real products, what's broken or weak, and what I'd actually change
+- `05-investing/` → mutual funds and stock investing, concepts studied and actually understood, not just read about
+- `06-nri-wealth-management/` → the specific problems NRIs face in wealth management, and how they're solved
 
 ---
 
@@ -174,7 +178,7 @@ The layer that sits on top of the other four pillars. Raw logs mean nothing unti
 - **Monthly Report** *(mandatory)* → one file per month, every month, even if a pillar had zero activity that month. A blank month is logged, not skipped.
 - **Weekly Report** *(when possible)* → a shorter checkpoint, every Sunday, to catch drift before a month has already passed.
 
-Alongside the Report, an Instagram account (@sauravbuilds)serves as the public, real-time narration of these four pillars. It's a different layer, not a sixth pillar, not a folder in this repo, and not part of the Report itself: the Report is backward-facing and analytical, turning raw logs into decisions on a fixed cadence; Instagram is forward-facing and event-driven, documenting the pillars for an outside audience whenever something real happens. It has its own context file, maintained separately from this structure.
+Alongside the Report, an Instagram account serves as the public, real-time narration of these four pillars. It's a different layer, not a sixth pillar, not a folder in this repo, and not part of the Report itself: the Report is backward-facing and analytical, turning raw logs into decisions on a fixed cadence; Instagram is forward-facing and event-driven, documenting the pillars for an outside audience whenever something real happens. It has its own context file, maintained separately from this structure.
 
 ---
 

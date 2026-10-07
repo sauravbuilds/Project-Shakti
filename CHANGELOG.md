@@ -1,6 +1,6 @@
 # Changelog — Project Shakti
 
-A dated log of structural decisions made to Project Shakti and why. Git already preserves every version of every file, this log exists to capture the reasoning behind changes.
+A plain-English, dated log of structural decisions made to Project Shakti and why. Git already preserves every version of every file, this log exists to capture the reasoning behind changes, not just the diff.
 
 ## 2026-10-03 — Previous changes (merged into one entry)
 
@@ -19,4 +19,13 @@ These changes happened before this changelog existed, so they're grouped here as
 
 ## 2026-10-03 — Instagram added as a parallel layer, not nested under Report
 
-Instagram documents the four pillars in real time for an external audience- it's forward-facing and event-driven (posted every 1-4 days, whenever something real happens). The Report is backward-facing and analytical, on a fixed cadence (monthly mandatory, weekly when possible), turning raw logs into decisions for personal use. These are different jobs, so Instagram sits alongside the Report as its own layer on top of the four pillars, documented separately in its own context file, rather than being nested inside Report.
+Instagram documents the four pillars in real time for an external audience (the ICP and potential brand collaborations), it's forward-facing and event-driven (posted every 1-4 days, whenever something real happens). The Report is backward-facing and analytical, on a fixed cadence (monthly mandatory, weekly when possible), turning raw logs into decisions for personal use. These are different jobs, so Instagram sits alongside the Report as its own layer on top of the four pillars, documented separately in its own context file, rather than being nested inside Report.
+
+## 2026-10-03 — Two new product-management folders: investing, nri-wealth-management
+
+Decided to go deeper into fintech domain expertise before starting the technical/AI-engineering curriculum, rather than in parallel with it. Reasoning: this directly compounds with the current job (an NRI wealth platform), the technical curriculum is mostly revision and lower urgency. 
+Added `investing/` (mutual funds and stock investing) and `nri-wealth-management/` (the specific problems NRIs face and how they're solved) under `product-management/`.
+
+## 2026-10-03 — Numbered the product-management folders
+ 
+`ai-engineering/` already has traceable order via its blocks; `product-management/` didn't. Added numeric prefixes reflecting the order each folder entered the plan: `01-mfd-exam/`, `02-concepts/`, `03-iim-case-studies/`, `04-product-teardowns/`, `05-investing/`, `06-nri-wealth-management/`.
