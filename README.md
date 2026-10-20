@@ -43,20 +43,24 @@ project-shakti/
 │   └── observations/
 │
 ├── professional/
-│   ├── ai-engineering/
-│   │   ├── block-01-python-pydantic/
-│   │   ├── block-02-genai-rag/
-│   │   ├── block-03-agents-langgraph-mcp/
-│   │   ├── block-04-fastapi/
-│   │   ├── block-05-docker-db-cloud/
-│   │   └── block-06-testing-observability-evals/
-│   └── product-management/
-│       ├── 01-mfd-exam/
-│       ├── 02-concepts/
-│       ├── 03-iim-case-studies/
-│       ├── 04-product-teardowns/
-│       ├── 05-investing/
-│       └── 06-nri-wealth-management/
+│   ├── 01-core-pm/
+│   │   ├── 01-mfd-exam/
+│   │   ├── 02-concepts/
+│   │   ├── 03-nri-wealth-management/
+│   │   ├── 04-investing/
+│   │   ├── 05-iim-case-studies/
+│   │   └── 06-product-teardowns/
+│   ├── 02-tech-pm/
+│   │   ├── 01-apis/
+│   │   ├── 02-llm-foundations/
+│   │   ├── 03-ai-architecture/
+│   │   ├── 04-evals-and-safety/
+│   │   ├── 05-ai-economics/
+│   │   ├── 06-data-and-sql/
+│   │   ├── 07-system-design/
+│   │   ├── 08-security-and-deployment/
+│   │   └── 09-builds/
+│   └── 03-gtm/
 │
 ├── product/
 │   └── saptarishi-archives/
@@ -123,29 +127,34 @@ This is not a reading list. It is a record of what I have actually read.
 
 **Path:** `professional/`
 
-This is career leverage, everything that makes me materially better at the work I actually do and ship for a living. Two equal legs: **AI Engineering** and **Product Management**. Neither is subordinate to the other. This pillar is built on a PM having real depth in AI: able to build actual agentic products, not just prompt one.
+This is career leverage, everything that makes me materially better at the work I actually do and ship for a living. Three equal legs: **Core PM**, **Tech PM**, and **GTM**. None is subordinate to the others. This pillar is built on a PM who understands the business, can reason about AI systems alongside engineers, and can take a product to market.
 
-**`ai-engineering/`**: a structured, block-by-block roadmap to being able to build and ship agentic AI systems on my own. Scoped deliberately: enough software engineering to build and deploy real products end-to-end, not a software-engineering degree. Every block builds on the previous one. Every block ends with a hands-on build.
-
-| Block | Focus |
-|---|---|
-| Block 01 | Python + Pydantic |
-| Block 02 | Prompt Engineering + RAG + GenAI |
-| Block 03 | Agents + LangGraph + MCP |
-| Block 04 | FastAPI |
-| Block 05 | Docker + Databases + Cloud |
-| Block 06 | Testing + Observability + Evals + 3 Products |
-
-NOTE: If you're following this, don't copy the notes. Write your own, paste them into any LLM, and ask it to write notes in a similar style. It will be more useful for you.
-
-**`product-management/`**: the craft I already practice daily as a PM, tracked with the same rigor as everything else in this repo.
+**`01-core-pm/`**: the craft I already practice daily as a PM, tracked with the same rigor as everything else in this repo.
 
 - `01-mfd-exam/` → prep and progress toward the exam
 - `02-concepts/` → PM concepts studied (books, podcasts, videos), written up product-specific rather than general, so it's easy to find and easy to revise
-- `03-iim-case-studies/` → reports on official IIM case studies, what I actually took from each
-- `04-product-teardowns/` → teardowns of real products, what's broken or weak, and what I'd actually change
-- `05-investing/` → mutual funds and stock investing, concepts studied and actually understood, not just read about
-- `06-nri-wealth-management/` → the specific problems NRIs face in wealth management, and how they're solved
+- `03-nri-wealth-management/` → the specific problems NRIs face in wealth management, and how they're solved
+- `04-investing/` → mutual funds and stock investing, concepts studied and actually understood, not just read about
+- `05-iim-case-studies/` → reports on official IIM case studies, what I actually took from each
+- `06-product-teardowns/` → teardowns of real products, what's broken or weak, and what I'd actually change
+
+**`02-tech-pm/`**: what a PM needs to reason about AI systems and ship small products without a team. Scoped deliberately: enough to design, evaluate, and prototype, not a software-engineering degree.
+
+- `01-apis/` → how software talks to software: REST, authentication, webhooks, and the edge cases that break integrations
+- `02-llm-foundations/` → how language models behave, and how to choose a model and approach
+- `03-ai-architecture/` → RAG, tool calling, MCP, agents, memory, and the harness around them
+- `04-evals-and-safety/` → how to tell whether an AI system is good enough to ship, and how to keep it safe
+- `05-ai-economics/` → cost, latency, and quality trade-offs, and the numbers behind pricing
+- `06-data-and-sql/` → how data is stored, queried, and measured
+- `07-system-design/` → HLD and LLD, and why one design was chosen over another
+- `08-security-and-deployment/` → how products are secured and shipped
+- `09-builds/` → prototypes and products built to learn how these systems actually fail
+
+Each folder holds one file per topic, added as I learn it.
+
+NOTE: If you're following this, don't copy the notes. Write your own, paste them into any LLM, and ask it to write notes in a similar style. It will be more useful for you.
+
+**`03-gtm/`**: taking products to market. Pricing, ICP, positioning, and channels, logged as I learn and decide them, not as a course. Anonymized where needed.
 
 ---
 
@@ -186,8 +195,9 @@ Alongside the Report, an Instagram account serves as the public, real-time narra
 
 - Every book, podcast, or article finished → entry added to `intellectual/`
 - Every day trained → log pushed to `physical/`
-- Every topic, chapter, or technology completed → pushed to `professional/ai-engineering/`
-- Every PM concept studied, framework applied, or real decision made → pushed to `professional/product-management/`
+- Every PM concept studied, teardown written, or domain topic learned → pushed to `professional/01-core-pm/`
+- Every Tech PM topic learned, and every build → pushed to `professional/02-tech-pm/`
+- Every go-to-market decision or lesson → pushed to `professional/03-gtm/`
 - Every meaningful product milestone → documented in `product/`
 - Every month (mandatory) and every week (when possible) → reported in `the-report/`
 
